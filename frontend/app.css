@@ -1,0 +1,85 @@
+.heading {
+  position: relative;
+
+  margin: 70px auto;
+}
+.heading h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.main_div {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+
+  background-color: aliceblues;
+  -webkit-box-shadow: -1px 6px 13px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 6px 13px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 6px 13px 0px rgba(0, 0, 0, 0.44);
+}
+
+.title {
+  padding-top: 5px;
+  color: black;
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.author {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  color: rgb(rgb(97, 84, 84), green, blue);
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  opacity: 50%;
+}
+
+.musicPlayerImage {
+  align-items: center;
+  padding-left: 95px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.playingComponents {
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.fa {
+  font-size: 2rem;
+}
+i:hover,
+i:hover,
+i:hover {
+  color: gray;
+}
+
+.anime {
+  animation: rotateplayer 3s linear infinite;
+}
+
+@keyframes rotateplayer {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
